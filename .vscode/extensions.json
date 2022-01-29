@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "kevinrose.vsc-python-indent",
+        "formulahendry.code-runner",
+        "ms-python.vscode-pylance",
+        "esbenp.prettier-vscode",
+        "streetsidesoftware.code-spell-checker"
+    ]
+}

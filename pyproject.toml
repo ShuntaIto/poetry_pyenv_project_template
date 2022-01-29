@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["ShuntaIto <shunta.ito@microsoft.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^4.0.1"
+black = "^21.12b0"
+isort = "^5.10.1"
+pre-commit = "^2.17.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 119
+
+[tool.isort]
+profile = "black"
+line_length = 119
